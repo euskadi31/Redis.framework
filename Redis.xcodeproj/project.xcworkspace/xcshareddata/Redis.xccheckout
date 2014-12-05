@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB643103-5FB5-4B68-9A39-6DBB401CB677</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Redis</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CED37632666B2CB01C53739FB3F0E08BE97BFF86</key>
+		<string>github.com:euskadi31/Redis.framework.git</string>
+		<key>F91706FF9E34BA9B4C9B854D68D187A438CCC7B4</key>
+		<string>https://github.com/redis/hiredis.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Redis.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CED37632666B2CB01C53739FB3F0E08BE97BFF86</key>
+		<string>../..</string>
+		<key>F91706FF9E34BA9B4C9B854D68D187A438CCC7B4</key>
+		<string>../../../../temps/hiredis</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:euskadi31/Redis.framework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CED37632666B2CB01C53739FB3F0E08BE97BFF86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F91706FF9E34BA9B4C9B854D68D187A438CCC7B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hiredis</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CED37632666B2CB01C53739FB3F0E08BE97BFF86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Redis</string>
+		</dict>
+	</array>
+</dict>
+</plist>
