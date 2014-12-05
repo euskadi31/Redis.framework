@@ -509,6 +509,7 @@
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					/usr/local/include,
+					"/usr/local/Cellar/hiredis/**",
 				);
 				PRODUCT_NAME = Redis;
 				WRAPPER_EXTENSION = framework;
@@ -532,6 +533,7 @@
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					/usr/local/include,
+					"/usr/local/Cellar/hiredis/**",
 				);
 				PRODUCT_NAME = Redis;
 				WRAPPER_EXTENSION = framework;
