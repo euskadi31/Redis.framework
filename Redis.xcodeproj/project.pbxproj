@@ -14,7 +14,12 @@
 		3C2960F019B275B800819469 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2960D919B275B800819469 /* Cocoa.framework */; };
 		3C2960F319B275B800819469 /* Redis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2960D619B275B800819469 /* Redis.framework */; };
 		3C2960F919B275B800819469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C2960F719B275B800819469 /* InfoPlist.strings */; };
-		3C2960FB19B275B800819469 /* RedisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2960FA19B275B800819469 /* RedisTests.m */; };
+		3C63625219B38EDB0071E59F /* RedisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C63625119B38EDB0071E59F /* RedisTests.m */; };
+		3C63625419B5FA020071E59F /* RedisType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C63625319B5FA020071E59F /* RedisType.h */; };
+		3C63625719B601420071E59F /* RedisInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C63625519B601420071E59F /* RedisInfo.h */; };
+		3C63625819B601420071E59F /* RedisInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C63625619B601420071E59F /* RedisInfo.m */; };
+		3C63625E19B613B60071E59F /* RedisInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C63625D19B613B60071E59F /* RedisInfoTests.m */; };
+		3C63626719B617B40071E59F /* RedisInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C63626619B617B40071E59F /* RedisInfo.txt */; };
 		3C8DE8D319B28DCA003A5E8E /* libhiredis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C29614619B27B6400819469 /* libhiredis.dylib */; };
 		3C9FD20C19B2969A007CCD17 /* RedisReply.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9FD20A19B2969A007CCD17 /* RedisReply.h */; };
 		3C9FD20D19B2969A007CCD17 /* RedisReply.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9FD20B19B2969A007CCD17 /* RedisReply.m */; };
@@ -46,7 +51,6 @@
 		3C2960EE19B275B800819469 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3C2960F619B275B800819469 /* RedisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedisTests-Info.plist"; sourceTree = "<group>"; };
 		3C2960F819B275B800819469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3C2960FA19B275B800819469 /* RedisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedisTests.m; sourceTree = "<group>"; };
 		3C29610919B276F100819469 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C29611919B276F100819469 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3C29612D19B27B6300819469 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -82,6 +86,12 @@
 		3C29614D19B27B6400819469 /* sds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sds.h; sourceTree = "<group>"; };
 		3C29614E19B27B6400819469 /* sds.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = sds.o; sourceTree = "<group>"; };
 		3C29614F19B27B6400819469 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		3C63625119B38EDB0071E59F /* RedisTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedisTests.m; sourceTree = "<group>"; };
+		3C63625319B5FA020071E59F /* RedisType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedisType.h; sourceTree = "<group>"; };
+		3C63625519B601420071E59F /* RedisInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedisInfo.h; sourceTree = "<group>"; };
+		3C63625619B601420071E59F /* RedisInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedisInfo.m; sourceTree = "<group>"; };
+		3C63625D19B613B60071E59F /* RedisInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedisInfoTests.m; sourceTree = "<group>"; };
+		3C63626619B617B40071E59F /* RedisInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RedisInfo.txt; sourceTree = "<group>"; };
 		3C9FD20A19B2969A007CCD17 /* RedisReply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedisReply.h; sourceTree = "<group>"; };
 		3C9FD20B19B2969A007CCD17 /* RedisReply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedisReply.m; sourceTree = "<group>"; };
 		3C9FD20E19B296AF007CCD17 /* RedisReplyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedisReplyTests.m; sourceTree = "<group>"; };
@@ -160,6 +170,9 @@
 				3C2960E019B275B800819469 /* Supporting Files */,
 				3C9FD20A19B2969A007CCD17 /* RedisReply.h */,
 				3C9FD20B19B2969A007CCD17 /* RedisReply.m */,
+				3C63625319B5FA020071E59F /* RedisType.h */,
+				3C63625519B601420071E59F /* RedisInfo.h */,
+				3C63625619B601420071E59F /* RedisInfo.m */,
 			);
 			path = Redis;
 			sourceTree = "<group>";
@@ -177,9 +190,11 @@
 		3C2960F419B275B800819469 /* RedisTests */ = {
 			isa = PBXGroup;
 			children = (
-				3C2960FA19B275B800819469 /* RedisTests.m */,
 				3C2960F519B275B800819469 /* Supporting Files */,
 				3C9FD20E19B296AF007CCD17 /* RedisReplyTests.m */,
+				3C63625119B38EDB0071E59F /* RedisTests.m */,
+				3C63625D19B613B60071E59F /* RedisInfoTests.m */,
+				3C63626619B617B40071E59F /* RedisInfo.txt */,
 			);
 			path = RedisTests;
 			sourceTree = "<group>";
@@ -257,6 +272,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C63625719B601420071E59F /* RedisInfo.h in Headers */,
+				3C63625419B5FA020071E59F /* RedisType.h in Headers */,
 				3C9FD20C19B2969A007CCD17 /* RedisReply.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C63626719B617B40071E59F /* RedisInfo.txt in Resources */,
 				3C2960F919B275B800819469 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C63625819B601420071E59F /* RedisInfo.m in Sources */,
 				3C9FD20D19B2969A007CCD17 /* RedisReply.m in Sources */,
 				3C2960E819B275B800819469 /* Redis.m in Sources */,
 			);
@@ -366,7 +385,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9FD20F19B296AF007CCD17 /* RedisReplyTests.m in Sources */,
-				3C2960FB19B275B800819469 /* RedisTests.m in Sources */,
+				3C63625E19B613B60071E59F /* RedisInfoTests.m in Sources */,
+				3C63625219B38EDB0071E59F /* RedisTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

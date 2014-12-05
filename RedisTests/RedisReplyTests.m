@@ -114,10 +114,10 @@
 {
     RedisReply* reply = [[RedisReply alloc] init];
     
-    [reply setInteger: [[NSNumber alloc] initWithInteger:12345]];
+    [reply setInteger: @12345];
     
     XCTAssertEqual([reply type], REDIS_REPLY_INTEGER);
-    XCTAssertEqualObjects([reply integer], [[NSNumber alloc] initWithInteger:12345]);
+    XCTAssertEqualObjects([reply integer], @12345);
 }
 
 - (void)testInitWithReply
@@ -233,9 +233,9 @@
     
     reply = [[RedisReply alloc] init];
     
-    [reply setInteger: [[NSNumber alloc] initWithInt: 1234]];
-    
-    XCTAssertEqualObjects([reply value], [[NSNumber alloc] initWithInt: 1234]);
+    [reply setInteger: @1234];
+
+    XCTAssertEqualObjects([reply value], @1234);
     
     reply = [[RedisReply alloc] init];
     

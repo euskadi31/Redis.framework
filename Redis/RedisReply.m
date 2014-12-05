@@ -18,18 +18,14 @@
 
 - (instancetype)init
 {
-    self = [super init];
-    
-    if (self) {
+    if ((self = [super init])) {
         _type       = REDIS_REPLY_NIL;
         _string     = @"";
         _integer    = 0;
         _elements   = [[NSMutableArray alloc] init];
-        
-        return self;
-    } else {
-        return nil;
     }
+    
+    return self;
 }
 
 - (instancetype)initWithReply:(void*)reply
