@@ -1,0 +1,8 @@
+language: objective-c
+xcode_project: Redis.xcodeproj
+xcode_scheme: RedisTests
+before_install:
+    - brew update
+    - brew install redis
+before_script:
+    - redis-server > /dev/null &
