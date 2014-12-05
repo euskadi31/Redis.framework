@@ -22,7 +22,7 @@
 		<key>CED37632666B2CB01C53739FB3F0E08BE97BFF86</key>
 		<string>../..</string>
 		<key>F91706FF9E34BA9B4C9B854D68D187A438CCC7B4</key>
-		<string>../../../../temps/hiredis</string>
+		<string>../../../temps/hiredis</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:euskadi31/Redis.framework.git</string>
