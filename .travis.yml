@@ -4,5 +4,6 @@ xcode_scheme: RedisTests
 before_install:
     - brew update
     - brew install redis
+    - brew install hiredis
 before_script:
     - redis-server > /dev/null &
