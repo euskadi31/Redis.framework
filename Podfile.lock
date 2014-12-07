@@ -1,0 +1,10 @@
+PODS:
+  - hiredis (0.11.0)
+
+DEPENDENCIES:
+  - hiredis (~> 0.11)
+
+SPEC CHECKSUMS:
+  hiredis: 2b2186feb0364cbe6878e4e9d32145c1c88823b8
+
+COCOAPODS: 0.35.0
